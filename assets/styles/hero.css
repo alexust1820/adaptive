@@ -1,0 +1,57 @@
+.hero {
+	padding: 90px 0;
+}
+
+.hero__image {
+	max-width: 400px;
+}
+
+.hero__title {
+	margin-bottom: 25px;
+	font-size: 80px;
+	font-weight: 900;
+}
+
+.hero__subtitle {
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: grey;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 1023px) {
+	
+	.hero__image {
+		width: 300px;
+	}
+
+	.hero__title {
+		 font-size: 20px;	
+		}
+
+	.hero__subtitle {
+			font-size: 20px;
+		}
+}
+
+@media screen and ( max-width: 770px){
+	.hero__title {
+		 font-size: 20px;	
+		 text-align: center;
+		}
+
+	.hero__subtitle {
+			width: 100vw;
+			font-size: 15px;
+			text-align: center;
+		}
+
+		.hero__image {
+			width: 200px;
+			margin-top: 10px;
+		}
+
+		img {
+			margin: 0 auto;
+		}
+}
