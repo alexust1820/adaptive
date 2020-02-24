@@ -1,0 +1,31 @@
+.contacts {
+	background-color: #dbdbdb;
+	padding-bottom: 60px;
+}
+
+.h2__contacts {
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+
+	iframe {
+		max-width: 70%;
+		max-height: 40%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 770px) {
+
+	iframe {
+		max-width: 70%;
+		max-height: 40%;
+		margin-left: 20px;
+	}
+
+	.h2__contacts {
+		margin-left: 20px;
+	}
+}
